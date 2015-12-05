@@ -45,7 +45,7 @@ VOLUME /data/db
 
 #
 # Sleitch: add custom config
-ADD mongodb.conf /etc/mongodb.conf
+ADD mongod.conf /etc/mongod.conf
 
 COPY docker-entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
