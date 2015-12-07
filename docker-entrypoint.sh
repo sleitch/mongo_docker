@@ -7,7 +7,8 @@ fi
 
 if [ "$1" = 'mongod' ]; then
 	chown -R mongodb /data/db
-chown -R mongodb /etc/mongod.conf
+	chown -R mongodb /etc/mongod.conf
+	chown -R mongodb /var/log/mongodb
 	numa='numactl --interleave=all'
 	if $numa true &> /dev/null; then
 		set -- $numa "$@"
