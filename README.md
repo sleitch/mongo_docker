@@ -1,4 +1,4 @@
-# Create a remote username protected mongo image for docker 
+# Mongo docker & Instructions for Remote Connect
 mongo dockerfile with custom config file
 
 ##Build & Run 
