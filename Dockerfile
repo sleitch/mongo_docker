@@ -7,6 +7,7 @@ RUN apt-get update \
 	&& apt-get install -y --no-install-recommends \
 		ca-certificates curl \
 		numactl \
+		nano \
 	&& rm -rf /var/lib/apt/lists/*
 
 # grab gosu for easy step-down from root
