@@ -21,7 +21,7 @@ RUN curl -o /usr/local/bin/gosu -SL "https://github.com/tianon/gosu/releases/dow
 # pub   4096R/EA312927 2015-10-09 [expires: 2017-10-08]
 #       Key fingerprint = 42F3 E95A 2C4F 0827 9C49  60AD D68F A50F EA31 2927
 # uid                  MongoDB 3.2 Release Signing Key <packaging@mongodb.com>
-RUN apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys 42F3E95A2C4F08279C4960ADD68FA50FEA312927
+RUN apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys 0C49F3730359A14518585931BC711F9BA15703C6
 
 ENV MONGO_MAJOR 3.3
 ENV MONGO_VERSION 3.3.6
