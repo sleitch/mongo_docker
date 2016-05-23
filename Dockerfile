@@ -58,5 +58,5 @@ EXPOSE 27017
 
 ##
 #sleitch change the command to run our config script
-#CMD ["mongod", "-f", "/etc/mongod.conf"]
-original: CMD ["mongod"]
+CMD ["mongod", "-f", "/etc/mongod.conf"]
+#original: CMD ["mongod"]
